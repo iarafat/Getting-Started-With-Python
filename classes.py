@@ -2,7 +2,6 @@ students = []
 
 
 class Student:
-
     school_name = 'GPS'
 
     def __init__(self, name, student_id=332):
@@ -40,24 +39,9 @@ james = HighSchoolStudent('james')
 print(james.get_name_capitalize())
 
 
+class Car:
+    name = 'Premio'
+    color = 'White'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    def start(self):
+        print("Starting the engine")
